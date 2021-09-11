@@ -1,0 +1,33 @@
+.headerSearch {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+}
+
+.headerSearch__container {
+    display: flex;
+    width: 100%;
+}
+
+.headerSearch__containerInput {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.headerSearch__containerBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-left: 1px solid lightgray;
+}
+
+.headerSearch__containerBtn:hover {
+    filter: brightness(0.8);
+}

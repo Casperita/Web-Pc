@@ -1,0 +1,255 @@
+.perfil{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    min-height: 80vh;
+    background-color: white;
+}
+
+.perfil__register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil__register > h1{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.perfil__registerBtn {
+    margin: 0px 20px;
+}
+
+.perfil__register img {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+
+.perfil__perfil{
+    background-color: white;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.perfil__perfil h1{
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-left: 40px;
+    border-bottom: 1px solid lightgray;
+}
+
+.perfil__info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    background-color: white;
+}
+
+.perfil__icon {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.perfil__icon img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.perfil__infoUser{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.perfil__infoRight {
+    padding-top: 10px;
+    padding-left: 60px;
+    border-left: 1px solid lightgray;
+}
+
+.perfil__infoRight button {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.perfil__editBtn {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.perfil__infoName{
+    font-size: 50px;
+}
+
+.perfil__infoName_dni{
+    display: flex;
+    align-items: center;
+}
+
+.perfil__infoNro_editTittle{
+    margin-top: 10px;
+}
+
+.perfil__infoEmail{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(21, 187, 187);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.perfil__infoEmail_edit{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(21, 187, 187);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.perfil__infoAddress_title{
+    border-top: 1px solid lightgray;
+    display: flex;
+    font-size: 20px;
+    padding-top: 25px;
+    margin-top: 30px;
+}
+
+.perfil__infoAddress_info{
+    margin: 10px 0px;
+    padding: 10px;
+    width: 90%;
+}
+
+.perfil__infoAddress_info > p{
+    border-bottom: 1px solid lightgray;
+}
+
+.perfil__infoAddress_infoEdit{
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil__infoAddress_infoEdit > input{
+    margin: 10px 0px;
+}
+
+.perfil__infoAddress_addBtn{
+    display: flex;
+
+}
+
+.perfil__infoAddress_addBtn > button{
+    margin: 0px 10px;
+}
+
+.perfil__infoPayment_title {
+    border-top: 1px solid lightgray;
+    display: flex;
+    font-size: 20px;
+    padding-top: 25px;
+    margin-top: 30px;
+}
+
+.perfil__infoCards_container {
+    padding: 10px 30px;
+}
+
+.perfil__infoCards {
+    margin-top: 20px;
+    display: flex;
+}
+
+.perfil__infoCards img {
+    width: 80px;
+    height: 50px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.perfil__infoRight_Edit{
+    width: 400px;
+}
+
+.perfil__iconEdit {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.perfil__iconEdit > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.perfil__iconEdit_input{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+.perfil__iconEdit input {
+    margin: 10px 0px;
+    height: 30px;
+}
+
+.perfil__iconEdit button {
+    margin: 10px 0px;
+}
+
+.perfil__infoRight_Edit {
+    padding-top: 10px;
+    padding-left: 60px;
+    border-left: 1px solid lightgray;
+}
+
+.perfil__infoNameEdit {
+    height: 29px;
+}
+
+.perfil__infoRight_Edit button{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.file{
+    display: none;
+}
+
+.btn__submitInfoEdit{
+    display: none;
+}
+
+
+@media screen and (max-width: 650px) {
+    .perfil {
+        width: 100%;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+}

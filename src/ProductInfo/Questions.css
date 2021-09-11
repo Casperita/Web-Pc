@@ -1,0 +1,14 @@
+.questions {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+.questions__title {
+    display: flex;
+    align-items: center;
+}
+
+.questions__title > small {
+    margin-left: 20px;
+}

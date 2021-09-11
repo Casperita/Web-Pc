@@ -1,0 +1,121 @@
+.search {
+    width: 100%;
+    height: 100%;
+    outline: 1px solid lightgray;
+}
+
+.search__container {
+    position: relative;
+    display: flex;
+    margin: 30px 0px;
+}
+
+.search__Link {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+.search__data {
+    display: flex;
+    width: 100%;
+}
+
+.search__img {
+    display: flex;
+}
+
+.search__img > img{
+    width: 250px;
+    height: auto;
+}
+
+.search__info {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+    width: 100%;
+}
+
+.search__title {
+    display: flex;
+    align-items: center;
+}
+
+.search__titlePrice {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.search__send {
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+    right: 10px;
+}
+
+.search__sendContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+}
+
+.search__btn {
+    background: rgb(236, 236, 142);
+    outline: 1px solid;
+    outline-color: rgb(240, 141, 75);
+    color: black;
+    height: 50px;
+    transition-duration: 0.2s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.search__btn:hover {
+    background-color: rgb(231, 231, 97);
+}
+
+.search__btn:active{
+    background-color: rgb(230, 176, 26);
+    transform: scale(0.9);
+}
+
+.search__sendFav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 38, 38);
+    margin-left: 3px;
+    height: 50px;
+    width: 50px;
+    transition-duration: 0.2s;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 1px solid;
+    outline-color: rgb(255, 38, 38);
+}
+
+.search__sendFav > p {
+    transition-duration: 0.2s;
+}
+
+.search__sendFav:hover  > p{
+    color: rgb(255, 38, 38);
+    transform: scale(1.5);
+}
+
+.search__sendFav:active {
+    background-color: rgb(255, 38, 38);
+}
+
+.search__sendFav:active > p {
+    color: white;
+    transform: scale(0.5);
+}

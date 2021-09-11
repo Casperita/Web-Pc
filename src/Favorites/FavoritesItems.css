@@ -1,0 +1,129 @@
+.favItems {
+    max-width: 1500px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.favItems__container {
+    position: relative;
+}
+
+.favItems__Link {
+    display: flex;
+    color: black;
+    text-decoration: none;
+}
+
+.favItems__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    margin: 20px 20px;
+    outline: 1px solid lightgray;
+}
+
+.favItems__img > img {
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.favItems__info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.favItems__title {
+    display: flex;
+    align-items: center;
+}
+
+.favItems__name {
+    margin-top: 0px;
+    margin-bottom: auto;
+}
+
+.favItems__price {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.favItems__add{
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+    right: 10px;
+}
+
+.favItems__addContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+}
+
+.favItems__btn {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 0;
+    margin-top: auto;
+    margin-right: 5px;
+    outline: 1px solid rgb(42, 9, 68);
+    background-color: rgb(254, 194, 96);
+    color: black;
+    transition-duration: 0.2s;
+}
+
+.favItems__btn:hover {
+    background-color: rgb(231, 231, 97);
+}
+
+.favItems__btn:active {
+    background-color: rgb(230, 176, 26);
+    transform: scale(0.9);
+}
+
+.favItems__sendFav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 38, 38);
+    height: 50px;
+    width: 50px;
+    margin-bottom: 0;
+    margin-top: auto;
+    transition-duration: 0.2s;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 1px solid;
+    outline-color: rgb(255, 38, 38);
+}
+
+.favItems__sendFav > p{
+    transition-duration: 0.2s;
+}
+
+.favItems__sendFav:hover > p{
+    color: rgb(255, 38, 38);
+    transform: scale(1.5);
+}
+
+.favItems__sendFav:active {
+    background-color: rgb(255, 38, 38);
+}
+
+.favItems__sendFav:active > p{
+    color: white;
+    transform: scale(0.5);
+}

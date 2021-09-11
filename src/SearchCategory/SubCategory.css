@@ -1,0 +1,15 @@
+.subCategory {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1px;
+}
+
+.subCategory__Link {
+    text-decoration: none;
+    color: black;
+}
+
+.subCategory__Link > p {
+    padding: 5px 20px;
+    outline: 1px solid lightgray;
+}

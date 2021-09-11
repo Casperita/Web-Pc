@@ -1,0 +1,48 @@
+.chat {
+    background-color: #d3d1d1;
+    width: 100%;
+    height: 100%;
+}
+
+.chat__container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    min-height: 80vh;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #d3d1d1;
+}
+
+.chat__admin {
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+}
+
+.chat__user {
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+}
+
+.chat__notSignIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+    background-color: white;
+}
+
+.chat__notSignIn_Btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat__registerBtn {
+    margin: 20px 20px;
+}

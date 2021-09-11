@@ -1,0 +1,58 @@
+.cupon {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.cupon__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15% auto;
+    padding: 20px;
+    width: 70vw;
+    height: 50vh;
+    background-color: white;
+}
+
+.cupon__container > h3{
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.cupon__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 70vw;
+}
+
+.cupon__rowIndiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    outline: 1px solid lightgray;
+}
+
+.cupon__rowIndiv > img {
+    height: auto;
+    margin: 0px 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cupon__container > button {
+    margin-bottom: 20px;
+    margin-top: auto;
+    width: 200px;
+    height: 30px;
+}

@@ -1,0 +1,32 @@
+.favs {
+    background-color: #d3d1d1;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.favs__container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    background-color: #d3d1d1;
+}
+
+.favs__title {
+    background-color: white;
+    margin-bottom: 2px;
+}
+
+.favs__title > h3 {
+    margin: 20px;
+}
+
+.favs__noExiste {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: white;
+}

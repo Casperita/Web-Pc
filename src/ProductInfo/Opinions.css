@@ -1,0 +1,19 @@
+.opinions {
+    outline: 1px solid lightblue;
+    margin: 20px 0px;
+}
+
+.opinions__container {
+    padding: 20px;
+    outline: 1px solid red;
+}
+
+.opinions__title {
+    display: flex;
+}
+
+.opinions__container > p {
+    overflow: auto;
+    outline: 1px solid lightgray;
+    height: 150px;
+}

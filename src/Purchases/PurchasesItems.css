@@ -1,0 +1,110 @@
+.item {
+    max-width: 1500px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.item__container {
+    display: flex;
+}
+
+.item__section {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    width: 100%;
+}
+
+.item__section > h3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.item__section > p {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.item__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    margin: 20px 20px;
+    outline: 1px solid lightgray;
+}
+
+.item__img > img {
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.item__priceTitle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.purchases__opinion {
+    height: 50px;
+    margin: 10px 30px;
+}
+
+.purchases__opinionSend {
+    height: 50px;
+    width: 100%;
+}
+
+.opinion{
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.opinion__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15% auto;
+    padding: 20px;
+    width: 50vw;
+    height: 30vh;
+    background-color: white;
+}
+
+.opinion__close {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+
+.opinion__close > p {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.opinion__container > textarea {
+    height: 20vh;
+    width: 45vw;
+}
+
+.opinion__container > button {
+    margin: 10px;
+    width: 100px;
+}

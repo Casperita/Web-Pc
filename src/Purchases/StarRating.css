@@ -1,0 +1,17 @@
+.star__rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 25px;
+    width: 30px;
+}
+.star:hover {
+    transform: scale(1.5);
+}

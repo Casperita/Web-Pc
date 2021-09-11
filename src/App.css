@@ -1,0 +1,8 @@
+.app__homeMovil {
+    display: flex;
+}
+
+.app__homeMovil .sidebar {
+    position: sticky;
+    height: 100vh;
+}
