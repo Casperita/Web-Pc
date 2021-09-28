@@ -5,13 +5,13 @@ import "firebase/storage";
 import { functions } from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCQt1rXg78XmVNGS0azOC1JUoRGnqXOvrw",
-  authDomain: "web-pc-af677.firebaseapp.com",
-  projectId: "web-pc-af677",
-  storageBucket: "web-pc-af677.appspot.com",
-  messagingSenderId: "864568717728",
-  appId: "1:864568717728:web:ede3c10971592e4d6a74c5",
-  measurementId: "G-36X5RPX7N3"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
